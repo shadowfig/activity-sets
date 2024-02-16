@@ -1,0 +1,5 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> gcc -g -O0 problem01.c -o problem01.exe                           
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> .\problem01.exe                                                   
+Enter the base and height of the triangle: 12
+34
+The area of the triangle with base 12.000000 and height 34.000000 is 204.000000
