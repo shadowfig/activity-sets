@@ -1,0 +1,3 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> gcc -g -O0 problem01.c -o problem01.exe                    
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> .\problem01.exe
+my name is kunal bro

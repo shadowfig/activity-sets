@@ -1,0 +1,4 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> gcc -g -O0 problem07.c -o problem07.exe
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> .\problem07.exe  
+Enter the value of n: 4
+The sum of all natural numbers until 4 is: 10

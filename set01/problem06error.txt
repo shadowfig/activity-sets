@@ -1,0 +1,9 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> gcc -g -O0 problem06.c -o problem06.exe
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> .\problem06.exe  
+enter the value of a
+3
+enter the value of b
+5
+enter the value of c
+6
+the largest of 3, 5 and 6 is 6

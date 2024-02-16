@@ -1,0 +1,7 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> gcc -g -O0 problem04.c -o problem04.exe                    
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> .\problem04.exe                                            
+enter the value of a
+4
+enter the value of b
+5
+the sum of 4 and 5 is 9

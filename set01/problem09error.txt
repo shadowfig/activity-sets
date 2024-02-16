@@ -1,0 +1,8 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> gcc -g -O0 problem09.c -o problem09.exe
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> .\problem09.exe  
+Enter the number:
+3
+1.750000
+1.732143
+1.732051
+The square root of 3.000000 is 1.732051

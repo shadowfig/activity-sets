@@ -1,0 +1,43 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> gdb problem09.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01\problem09.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem09.c, line 10.
+(gdb) r
+Starting program: C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01/problem09.exe
+[New Thread 6548.0xaf0]
+[New Thread 6548.0x4ea8]
+
+Breakpoint 1, main () at problem09.c:10
+10          n=input();
+(gdb) n
+Enter the number:
+3
+11          sqrroot=square_root(n);
+(gdb) n
+1.750000
+1.732143
+1.732051
+12          output(n,sqrroot);
+(gdb) n
+The square root of 3.000000 is 1.732051
+13          return 0;
+(gdb) n
+14      }
+(gdb) n
+0x00401288 in __register_frame_info ()
+(gdb) finish\
+d
+Undefined command: "finishd".  Try "help".
+(gdb) finish 
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 6548) exited normally]
+(gdb) q

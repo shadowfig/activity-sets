@@ -1,0 +1,5 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> gcc -g -O0 problem03.c -o problem03.exe
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> .\problem03.exe
+enter the value : 3
+enter the value : 5
+the sum of 3 and 5 is 8

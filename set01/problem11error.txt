@@ -1,0 +1,11 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> gcc -g -O0 problem11.c -o problem11.exe                    
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> .\problem11.exe  
+Enter the real part
+8
+Enter the img part
+9
+Enter the real part
+9
+Enter the img part
+6
+The sum is 17.0+i15.0

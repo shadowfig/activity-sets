@@ -1,0 +1,11 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> gcc -g -O0 problem12.c -o problem12.exe
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> .\problem12.exe
+Enter the number of values: 2
+Complex number 1:
+Enter the real part: 3
+Enter the imaginary part: 4
+Complex number 2:
+Enter the real part: 5
+Enter the imaginary part: 6
+Sum of 2 complex numbers:
+(3.00 + 4.00i) + (5.00 + 6.00i) = (8.00 + 10.00i)

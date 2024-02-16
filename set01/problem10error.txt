@@ -1,0 +1,8 @@
+ gcc -g -O0 problem10.c -o problem10.exe
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> .\problem10.exe
+Enter the first string: kunal
+Enter the second string: prajawal
+You entered:
+String 1: kunal
+String 2: prajawal
+String 1 is less than String 2.

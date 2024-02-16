@@ -1,0 +1,6 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> gcc -g -O0 problem05.c -o problem05.exe
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> .\problem05.exe
+Enter the value4
+Enter the value5
+Enter the value6
+the largest btw 4 and 5 and 6 is 6

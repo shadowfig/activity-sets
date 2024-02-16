@@ -1,0 +1,51 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> gdb problem08.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01\problem08.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x401477: file problem08.c, line 8.
+(gdb) r
+Starting program: C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01/problem08.exe
+[New Thread 1392.0x4608]
+[New Thread 1392.0x2a18]
+
+Breakpoint 1, 0x00401477 in main () at problem08.c:8
+warning: Source file is more recent than executable.
+8       {
+(gdb) n
+9           int n,sum=0;
+(gdb) n
+10          n=input_array_size();
+(gdb) n
+Enter  the size of the array:
+3
+11          int a[n];
+(gdb) n
+12          input_array(n,a);
+(gdb) n
+Enter the vlues of the array:
+3
+4
+6
+13          sum=sum_n_array(n,a,sum);
+(gdb) n
+14          output(n,sum);
+(gdb) n
+The sum of the array of size 3 is 13
+15          return 0;
+(gdb) n
+16      }
+(gdb) n
+0x00401288 in __register_frame_info ()
+(gdb) finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 1392) exited normally]
+(gdb) q
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01>

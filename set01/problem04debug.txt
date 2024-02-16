@@ -1,0 +1,58 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> gdb problem04.exe                                          
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01\problem04.exe...done.
+(gdb) b 16
+Breakpoint 1 at 0x4014b7: file problem04.c, line 16.
+(gdb) r
+Starting program: C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01/problem04.exe
+[New Thread 20880.0x3dc0]
+[New Thread 20880.0x24dc]
+enter the value of a
+12
+enter the value of b
+24
+
+Breakpoint 1, add (a=12, b=24, sum=0x61ff14) at problem04.c:16
+16      }
+(gdb) print sum
+$1 = (int *) 0x61ff14
+(gdb) print *sum 
+$2 = 36
+(gdb) print a
+$3 = 12
+(gdb) print b
+$4 = 24
+(gdb) nn
+Undefined command: "nn".  Try "help".
+(gdb) n 
+main () at problem04.c:26
+26          output(a,b,sum);
+(gdb) n
+the sum of 12 and 24 is 36
+27          return 0;
+(gdb) n
+28      }(gdb) n
+0x00401288 in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) finish\
+;
+The "finish" command does not take any arguments.
+(gdb) finish\
+ge
+Undefined command: "finishge".  Try "help".
+(gdb) finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 20880) exited normally]
+(gdb) q
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01>

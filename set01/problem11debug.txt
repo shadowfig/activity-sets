@@ -1,0 +1,57 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01> gdb problem11.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01\problem11.exe...done.
+(gdb) b main 
+Breakpoint 1 at 0x40146e: file problem11.c, line 17.
+(gdb) r
+Starting program: C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set01/problem11.exe 
+[New Thread 5304.0x39f4]
+[New Thread 5304.0xf94]
+
+Breakpoint 1, main () at problem11.c:17
+17          c1=input();
+(gdb) n
+Enter the real part
+8
+Enter the img part
+9
+18          c2=input();
+(gdb) n
+Enter the real part
+2
+Enter the img part
+4 
+19          sum=find_sum(c1,c2);
+(gdb) n
+20          output(c1,c2,sum);
+(gdb) n
+The sum is 10.0+i13.021     return 0;
+(gdb) n
+22      }
+(gdb) n
+0x00401288 in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+[Inferior 1 (process 5304) exited normally]
+(gdb) finish
