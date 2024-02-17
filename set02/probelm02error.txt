@@ -1,0 +1,7 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> gcc -g -O0 problem02.c -o problem02.exe                    
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> .\problem02.exe                                            
+Enter the lengths of the three sides of the triangle:
+Enter the length of a side: 3
+Enter the length of a side: 5
+Enter the length of a side: 3
+The triangle with sides 3, 5 and 3 is not scalene.
