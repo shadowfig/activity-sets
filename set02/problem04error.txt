@@ -1,0 +1,5 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> gcc -g -O0 problem04.c -o problem04.exe                           
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> .\problem04.exe                                                   
+Enter the size of the array: 3
+Enter 3 numbers separated by space: 2 3 4
+Sum of composite numbers: 4
