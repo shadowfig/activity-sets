@@ -1,0 +1,44 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> gdb problem05.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02\problem05.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem05.c, line 11.
+(gdb) r
+Starting program: C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02/problem05.exe
+[New Thread 18388.0x1d5c]
+[New Thread 18388.0x4330]
+
+Breakpoint 1, main () at problem05.c:11
+warning: Source file is more recent than executable.
+11          gcd = find_gcd(num1, num2);
+(gdb) n
+Enter a number: 3
+12          output(num1, num2, gcd);
+(gdb) n
+Enter a number: 5
+15      }
+(gdb) n
+18          int num;
+(gdb) n
+The GCD of 3 and 5 is 1
+20          scanf("%d", &num);
+(gdb) n
+21          return num;
+(gdb) n
+0x00401288 in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) finish 
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 18388) exited normally]
+(gdb) q

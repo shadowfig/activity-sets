@@ -1,0 +1,5 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> gcc -g -O0 problem05.c -o problem05.exe
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> .\problem05.exe
+Enter a number: 3
+Enter a number: 4
+The GCD of 3 and 4 is 1
