@@ -1,0 +1,5 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> gcc -g -O0 problem06.c -o problem06.exe                    
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> .\problem06.exe                                            
+Enter a string: kuna
+Original string: kuna
+Reversed string: anuk
