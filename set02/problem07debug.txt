@@ -1,0 +1,36 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> gdb problem07.exe                                          
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02\problem07.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem07.c, line 12.
+(gdb) r
+Starting program: C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02/problem07.exe
+[New Thread 8824.0x3fc4]
+[New Thread 8824.0x1698]
+
+Breakpoint 1, main () at problem07.c:12
+12              T1 = input_triangle();
+(gdb) n
+Enter The base value:
+4
+Enter The altitude value:
+5
+13              find_area(&T1);
+(gdb) n
+14              output(T1);
+(gdb) n
+The area of the triangle with base 4.000000 and height 5.000000 is 10.000000sq units15  }
+(gdb) n
+0x00401288 in __register_frame_info ()
+(gdb) finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 8824) exited normally]
+(gdb) q
