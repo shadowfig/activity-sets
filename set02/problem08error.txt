@@ -1,0 +1,18 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> gcc -g -O0 problem08.c -o problem08.exe                           
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> .\problem08.exe                                                   
+Enter the number of triangles: 
+2
+Triangle 1:
+Enter the base of the triangle:
+1
+Enter the altitude of the triangle:
+4
+Triangle 2:
+Enter the base of the triangle:
+5
+Enter the altitude of the triangle:
+6
+Triangle with the smallest area is:
+Base: 1.00
+Altitude: 4.00
+Area: 2.00

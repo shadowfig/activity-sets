@@ -1,0 +1,58 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02> gdb problem08.exe                                                 
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02\problem08.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x401479: file problem08.c, line 18.
+(gdb) r
+Starting program: C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set02/problem08.exe
+[New Thread 10868.0x18c0]
+[New Thread 10868.0x1cfc]
+
+Breakpoint 1, 0x00401479 in main () at problem08.c:18
+18      {
+(gdb) n
+19          int n = input_n();
+(gdb) n
+Enter the number of triangles:
+2
+20          Triangle tri[n];
+(gdb) n
+21          input_n_triangles(n, tri);
+(gdb) n
+Triangle 1:
+Enter the base of the triangle:
+2
+Enter the altitude of the triangle:
+4
+Triangle 2:
+Enter the base of the triangle:
+4
+Enter the altitude of the triangle:
+5
+22          find_n_areas(n, tri);
+(gdb) n
+23          Triangle smtri = find_smallest_triangle(n, tri);
+(gdb) n
+24          output(smtri);
+(gdb) n
+Triangle with the smallest area is:
+Base: 2.00
+Altitude: 4.00
+Area: 4.00
+25          return 0;
+(gdb) n
+26      }
+(gdb) n
+0x00401288 in __register_frame_info ()
+(gdb) finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 10868) exited normally]
+(gdb) q
