@@ -33,7 +33,7 @@ int input_n()
     return n;
 }
 
-Triangle input_triangle() 
+Triangle input_triangle(
 {
     Triangle t;
     printf("Enter the base of the triangle: \n");
