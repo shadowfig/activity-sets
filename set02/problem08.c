@@ -14,7 +14,7 @@ void find_n_areas(int n, Triangle t[n]);
 Triangle find_smallest_triangle(int n, Triangle t[n]);
 void output(Triangle smallest);
 
-int main() 
+int main(
 {
     int n = input_n();
     Triangle tri[n];
