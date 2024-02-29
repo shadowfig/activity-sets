@@ -1,0 +1,40 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set03> gdb problem01.exe                                         
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set03\problem01.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem01.c, line 11.
+(gdb) r
+Starting program: C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set03/problem01.exe
+[New Thread 11244.0x40b4]
+[New Thread 11244.0x91c]
+
+Breakpoint 1, main () at problem01.c:11
+11          input(&x1,&y1,&x2,&y2);
+(gdb) n
+Enter the point for x1 :
+32
+Enter the point for y1 :
+43
+Enter the point for x2 :
+56
+Enter the point for y2 :
+78
+12          distance=find_distance(x1,y1,x2,y2);
+(gdb) n
+13          output(x1,y1,x2,y2,distance);
+(gdb) n
+The distance between point (32.000000,56.000000) and (43.000000,78.000000) is 42.43819014       }
+(gdb) n
+0x00401288 in __register_frame_info ()
+(gdb) finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 11244) exited normally]
+(gdb) q

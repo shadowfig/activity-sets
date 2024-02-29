@@ -1,0 +1,11 @@
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set03> gcc -g -O0 problem01.c -o problem01.exe                   
+PS C:\Users\aleyk\OneDrive\Desktop\PSC-DESTRINATION\activity-sets\set03> ./problem01.exe                                           
+Enter the point for x1 : 
+34
+Enter the point for y1 : 
+54
+Enter the point for x2 :
+65
+Enter the point for y2 :
+78
+The distance between point (34.000000,65.000000) and (54.000000,78.000000) is 39.204590
